@@ -13,7 +13,7 @@ st.markdown("""
     .stButton>button:hover { background-color: #059669; }
     .vip-lock { background-color: #fef3c7; padding: 15px; border-left: 5px solid #d97706; border-radius: 5px; margin-bottom: 15px; }
     </style>
-""", unsafe_allowed_html=True)
+""", unsafe_allow_html=True)
 
 st.title("📊 Aussie Smart Lotto Filter Pro")
 st.write("Optimize your numbers, eliminate low-probability combinations, and catch the prize with fewer games!")
@@ -64,7 +64,7 @@ else:
             Filters like <i>Golden Sum Range</i>, <i>Empty Decades Analysis</i>, and <i>Fixed Power Numbers</i> are exclusive to VIP members.<br>
             <a href="https://gumroad.com" target="_blank"><strong>Click here to Unlock all VIP features instantly for just $15!</strong></a>
         </div>
-    """, unsafe_allowed_html=True)
+    """, unsafe_allow_html=True)
 
 # Render inputs based on VIP status
 if is_vip:

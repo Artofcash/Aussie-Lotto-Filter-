@@ -1,6 +1,0 @@
-python-dotenv
-stripe
-bcrypt
-pandas
-cryptography
-sqlalchemy
